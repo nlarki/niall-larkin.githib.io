@@ -16,7 +16,7 @@ header {
   display: flex;
   width: 90%;
   margin: auto;
-  font-family: "Lora", serif;
+  font-family: "Playfair Display", serif;
   align-items: center;
   height: 10vh;
 }
@@ -58,34 +58,57 @@ nav {
 }
 
 a:hover {
-  color: rgb(204, 167, 236);
+  color: rgb(158, 191, 203);
 }
 
 .intro-text h1 {
   font-size: 160px;
   text-decoration: none;
   font-weight: 100;
-  color: rgb(204, 167, 236);
+}
+
+.introduction {
+  color: rgb(158, 191, 203);
+  font-family: "Hanalei Fill", cursive;
+  flex: 3;
 }
 
 .name {
   font-size: 100px;
   text-decoration: none;
   font-weight: 400;
-  color: rgb(204, 167, 236);
 }
 
 .job {
   font-size: 100px;
   text-decoration: none;
   font-weight: 400;
-  color: rgb(204, 167, 236);
 }
 .description {
   font-size: 40px;
   text-decoration: none;
   font-weight: 400;
-  color: rgb(204, 167, 236);
+}
+
+.about {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  flex: 1;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  padding: 25px;
+  margin-bottom: 100px;
+}
+
+.about img {
+  height: 20vh;
+}
+
+.about h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -104,5 +127,28 @@ a:hover {
   }
   .job {
     font-size: 50px;
+  }
+  .description {
+    font-size: 20px;
+  }
+
+  .logo-container img {
+    height: 5vh;
+  }
+
+  .nav-link {
+    font-size: 20px;
+  }
+
+  .about {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-family: "Playfair Display", serif;
+    flex: 1;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    padding: 25px;
+    margin-bottom: 100px;
   }
 }
