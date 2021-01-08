@@ -40,7 +40,7 @@ nav {
 
 .nav-link {
   font-size: 40px;
-  color: black;
+  color: rgb(77, 92, 178);
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ nav {
 }
 
 a:hover {
-  color: rgb(158, 191, 203);
+  color: rgb(22, 32, 93);
 }
 
 .intro-text h1 {
@@ -68,7 +68,7 @@ a:hover {
 }
 
 .introduction {
-  color: rgb(158, 191, 203);
+  color: rgb(77, 92, 178);
   font-family: "Hanalei Fill", cursive;
   flex: 3;
 }
@@ -93,13 +93,14 @@ a:hover {
 .about {
   text-align: center;
   color: black;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Playfair Display", serif;
   flex: 1;
   border-radius: 25px;
-  background-color: whitesmoke;
   padding: 25px;
   margin-bottom: 100px;
+  color: rgb(77, 92, 178);
+  background-color: whitesmoke;
 }
 
 .about img {
@@ -109,6 +110,7 @@ a:hover {
 .about h1 {
   font-family: "Playfair Display", serif;
   font-size: 70px;
+  font-style: oblique;
 }
 
 @media screen and (max-width: 1024px) {
