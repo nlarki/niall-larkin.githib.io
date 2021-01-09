@@ -39,6 +39,11 @@ header {
   padding-left: 10px;
 }
 
+.logo-container:hover img {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+}
+
 nav {
   flex: 2;
 }
@@ -69,8 +74,76 @@ nav {
   align-items: center;
 }
 
+.container {
+  padding-bottom: 10px;
+}
+
+.blogs {
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  margin-top: 50px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  background-color: rgb(56, 96, 255);
+}
+
+.blog-content {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+  align-items: center;
+}
+
+.blog-item {
+  margin-bottom: 60px;
+  padding: 20px;
+  background: whitesmoke;
+  border-radius: 25px;
+}
+
+.blog-img img {
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+
+.blog-item:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.blog-text {
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.blog-text span {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.blog-text h2 {
+  font-size: 20px;
+}
+
+.title h2 {
+  margin-top: 20px;
+  padding: 50px;
+  font-size: 80px;
+  font-family: "Poppins", sans-serif;
+  -webkit-text-fill-color: rgb(56, 96, 255);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 76, 56);
+}
+
 a:hover {
   color: rgb(22, 32, 93);
+  transform: scale(1.2);
+  transition: all 0.5s ease;
 }
 
 .intro-text h1 {
@@ -82,7 +155,7 @@ a:hover {
     239,
     215
   ); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-width: 7px;
   -webkit-text-stroke-color: rgb(56, 96, 255);
 }
 
@@ -138,7 +211,7 @@ a:hover {
   flex: 1;
   border-radius: 25px;
   padding: 25px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
   color: rgb(56, 96, 255);
   background-color: whitesmoke;
@@ -182,11 +255,11 @@ a:hover {
   }
 
   .logo-container img {
-    height: 5vh;
+    height: 10vh;
   }
 
   .nav-link {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .about {
