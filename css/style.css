@@ -35,6 +35,8 @@ header {
 
 .logo-container img {
   height: 10vh;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 nav {
@@ -63,7 +65,7 @@ nav {
   display: flex;
   width: 90%;
   margin: auto;
-  min-height: 90vh;
+  min-height: 80vh;
   align-items: center;
 }
 
@@ -88,6 +90,7 @@ a:hover {
   color: rgb(56, 96, 255);
   font-family: "Hanalei Fill", cursive;
   flex: 3;
+  animation: fadeIn 3s;
 }
 
 .name {
@@ -135,6 +138,7 @@ a:hover {
   flex: 1;
   border-radius: 25px;
   padding: 25px;
+  margin-top: 100px;
   margin-bottom: 100px;
   color: rgb(56, 96, 255);
   background-color: whitesmoke;
@@ -194,5 +198,15 @@ a:hover {
     padding: 25px;
     margin-bottom: 100px;
     margin-top: 25px;
+  }
+}
+
+@keyframes fadeIn {
+  /*Then, don't actually animate anything for, in this case, 4 seconds*/
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
