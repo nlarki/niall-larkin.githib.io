@@ -5,7 +5,7 @@
 }
 
 body {
-  color: rgb(243, 238, 232);
+  background-color: rgb(245, 239, 215);
 }
 
 html {
@@ -16,9 +16,12 @@ header {
   display: flex;
   width: 90%;
   margin: auto;
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   align-items: center;
   height: 10vh;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  margin-top: 10px;
 }
 
 .logo-container,
@@ -40,8 +43,15 @@ nav {
 
 .nav-link {
   font-size: 40px;
-  color: rgb(77, 92, 178);
+  color: rgb(56, 96, 255);
   text-decoration: none;
+  -webkit-text-fill-color: rgb(
+    245,
+    239,
+    215
+  ); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(56, 96, 255);
 }
 
 .nav-links {
@@ -65,10 +75,17 @@ a:hover {
   font-size: 160px;
   text-decoration: none;
   font-weight: 100;
+  -webkit-text-fill-color: rgb(
+    245,
+    239,
+    215
+  ); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: rgb(56, 96, 255);
 }
 
 .introduction {
-  color: rgb(77, 92, 178);
+  color: rgb(56, 96, 255);
   font-family: "Hanalei Fill", cursive;
   flex: 3;
 }
@@ -77,29 +94,49 @@ a:hover {
   font-size: 100px;
   text-decoration: none;
   font-weight: 400;
+  -webkit-text-fill-color: rgb(
+    245,
+    239,
+    215
+  ); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: rgb(56, 96, 255);
 }
 
 .job {
   font-size: 100px;
   text-decoration: none;
   font-weight: 400;
+  -webkit-text-fill-color: rgb(
+    245,
+    239,
+    215
+  ); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: rgb(56, 96, 255);
 }
 .description {
   font-size: 40px;
   text-decoration: none;
   font-weight: 400;
+  -webkit-text-fill-color: rgb(
+    245,
+    239,
+    215
+  ); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(56, 96, 255);
 }
 
 .about {
   text-align: center;
-  color: black;
-  font-size: 25px;
-  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
   flex: 1;
   border-radius: 25px;
   padding: 25px;
   margin-bottom: 100px;
-  color: rgb(77, 92, 178);
+  color: rgb(56, 96, 255);
   background-color: whitesmoke;
 }
 
@@ -108,9 +145,15 @@ a:hover {
 }
 
 .about h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-size: 70px;
-  font-style: oblique;
+  -webkit-text-fill-color: rgb(
+    245,
+    239,
+    215
+  ); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(56, 96, 255);
 }
 
 @media screen and (max-width: 1024px) {
@@ -139,18 +182,17 @@ a:hover {
   }
 
   .nav-link {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .about {
     text-align: center;
-    color: black;
     font-size: 15px;
-    font-family: "Playfair Display", serif;
     flex: 1;
     border-radius: 25px;
     background-color: whitesmoke;
     padding: 25px;
     margin-bottom: 100px;
+    margin-top: 25px;
   }
 }
