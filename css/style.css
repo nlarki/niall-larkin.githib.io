@@ -130,9 +130,13 @@ nav {
   font-size: 25px;
 }
 
+.pics-title {
+  margin-top: -50px;
+}
+
 .title h2 {
   text-align: center;
-  margin-top: 20px;
+  align-items: center;
   padding: 50px;
   font-size: 100px;
   animation: fadeIn 3s;
@@ -141,8 +145,30 @@ nav {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: rgb(56, 96, 255);
 }
+.pics-title h2 {
+  text-align: center;
+  align-items: center;
+  padding: 50px;
+  padding-bottom: 15px;
+  font-size: 100px;
+  animation: fadeIn 3s;
+  font-family: "Poppins", sans-serif;
+  -webkit-text-fill-color: rgb(245, 239, 215);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(56, 96, 255);
+}
 
-a:hover {
+.pics-title p {
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 55px;
+  animation: fadeIn 3s;
+  font-family: "Poppins", sans-serif;
+  color: rgb(56, 96, 255);
+}
+
+.pics a:hover {
   color: rgb(22, 32, 93);
   transform: scale(1.2);
   transition: all 0.5s ease;
@@ -163,7 +189,7 @@ a:hover {
 
 .introduction {
   color: rgb(56, 96, 255);
-  font-family: "Hanalei Fill", cursive;
+  font-family: "Staatliches", cursive;
   flex: 3;
   animation: fadeIn 3s;
 }
