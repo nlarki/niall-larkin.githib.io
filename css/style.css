@@ -41,7 +41,7 @@ header {
 }
 
 nav {
-  flex: 2;
+  flex: 1;
 }
 
 .nav-link {
@@ -106,7 +106,7 @@ nav {
   width: auto;
   margin: 0 auto;
   display: block;
-  max-width: 100%;
+  max-width: 75%;
 }
 
 .blog-item:hover {
@@ -135,6 +135,7 @@ nav {
   margin-top: 20px;
   padding: 50px;
   font-size: 100px;
+  animation: fadeIn 3s;
   font-family: "Poppins", sans-serif;
   -webkit-text-fill-color: rgb(245, 239, 215);
   -webkit-text-stroke-width: 2px;
@@ -207,7 +208,7 @@ a:hover {
 
 .about {
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
   flex: 1;
   border-radius: 25px;
@@ -231,6 +232,60 @@ a:hover {
     215
   ); /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(56, 96, 255);
+}
+
+.pics {
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  margin-top: 50px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+
+.pics-content {
+  display: block;
+  margin: 0 auto;
+  max-width: 1000px;
+  align-items: center;
+}
+
+.pics-item {
+  margin-bottom: 60px;
+  padding: 20px;
+  background: whitesmoke;
+  border-radius: 25px;
+}
+
+.pics-img img {
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.pics-item:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  background: rgb(56, 96, 255);
+}
+
+.blog-text h2 {
+  font-size: 25px;
+}
+
+.title h2 {
+  text-align: center;
+  margin-top: 20px;
+  padding: 50px;
+  font-size: 100px;
+  animation: fadeIn 3s;
+  font-family: "Poppins", sans-serif;
+  -webkit-text-fill-color: rgb(245, 239, 215);
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: rgb(56, 96, 255);
 }
 
