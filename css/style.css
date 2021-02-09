@@ -168,10 +168,18 @@ nav {
   color: rgb(56, 96, 255);
 }
 
-.pics a:hover {
+.pics-img a:hover {
   color: rgb(22, 32, 93);
   transform: scale(1.2);
   transition: all 0.5s ease;
+}
+
+.blog-img img {
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  max-width: 75%;
 }
 
 .intro-text h1 {
@@ -354,6 +362,10 @@ nav {
   }
 
   .title h2 {
+    font-size: 40px;
+  }
+
+  .pics-title h2 {
     font-size: 40px;
   }
 }
